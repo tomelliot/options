@@ -27,5 +27,5 @@ for ticker in tickers:
     df = df.append(opts)
 
 fn = pd.datetime.now(pytz.timezone('America/New_York')).strftime("%Y%m%d_%H%M%S.p")
-fpath = os.path.abspath(os.sep.join(sys.argv[0].split(os.sep)[:-1]) + os.sep.join(["data", fn]))
+fpath = os.path.abspath(os.sep.join(sys.argv[0].split(os.sep)[:-1]) + os.sep.join(["", "data", fn]))
 df.to_pickle(fpath)
