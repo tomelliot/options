@@ -1,0 +1,1 @@
+tickers = ['aapl', 'fb', 'fit', 'goog']
