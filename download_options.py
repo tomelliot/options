@@ -1,4 +1,3 @@
-from toms_plot_settings import *
 from pandas_datareader.data import Options
 import pandas as pd
 import pytz
